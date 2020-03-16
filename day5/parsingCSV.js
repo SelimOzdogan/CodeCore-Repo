@@ -17,6 +17,15 @@ function parseCSV(csvData) {
     }
     return output;
 }
+function search(myObj, name) {
+    for (let value of myObj) {
+        // console.log(value.firstName + ' ' + value.lastName);
+        if (value.firstName === name || value.lastName === name)
+            return value;
+    }
+    return "user not found"
+}
+
 
 
 let csvData = `
@@ -36,4 +45,5 @@ id,firstName,lastName,email
 `
 
 let users = parseCSV(csvData)
-console.log(users)
+console.log(search(users, 'quill'));
+console.log(search(users, 'selim'));
