@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans|Hepta+Slab&display=swap");
+@import url(reset.css);
+body {
+    /* line-height: 2em; */
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+body div {
+    font-family: 'Baloo Chettan 2', cursive;
+    text-align: center;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+body div.contact-info #about-yourself {
+    font-size: 20px;
+}
+
+.subTitle{
+    text-decoration: underline;
+    font-size: 25px;
+    /* background-color: silver; */
+    background-image: linear-gradient(to right, #bac7d1 0%, #788386 100%);
+}
+.list
+{
+    list-style: square inside ;
+}
+#name {
+    font-size: 50px;
+}
+
+#about-yourself {
+    border-bottom: 5px ridge rgba(28,110,164,0.73);
+    border-top: 5px ridge rgba(28,110,164,0.73);
+}

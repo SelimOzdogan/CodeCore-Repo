@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans|Hepta+Slab&display=swap");
+@import url(reset.css);
+
+body {
+    line-height: 1.5em;
+}
+h1, h3 {
+    font-family: "Fira Sans", "Sans-serif";
+}
+.shared {
+    padding: 2em;
+    margin-bottom: 0.5em;
+}
+.ux-rule-one {
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+.ux-rule-two {
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
