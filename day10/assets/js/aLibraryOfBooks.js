@@ -25,6 +25,7 @@ class Book {
     }
 }
 
+
 const eloquentJS = new Book("Eloquent Javascript", ["Marijn Haverbeke"], 3);
 const speakingJS = new Book("Speaking JavaScript", ["Dr. Axel Rauschmayer"], 1);
 const theRustProgLang = new Book(
