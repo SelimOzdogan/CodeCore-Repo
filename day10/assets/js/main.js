@@ -7,4 +7,5 @@ const reduce = (arr, callback, currentvalue) => {
     }
     let value = arr.pop();
     return currentvalue + reduce(arr, callback, value);
-};l
+};
+®\
