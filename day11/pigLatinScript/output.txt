@@ -1,0 +1,15 @@
+pig = igpay
+latin = atinlay
+banana = ananabay
+trash = rashtay
+happy = appyhay
+duck = uckday
+dopest = opestday
+me = emay
+too = ootay
+will = illway
+eat = eatay
+omelet = omeletay
+are = areay
+egg = eggay
+explain = explainay
