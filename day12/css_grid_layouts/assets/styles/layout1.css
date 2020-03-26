@@ -1,0 +1,75 @@
+body {
+  background-color: whitesmoke;
+}
+.container {
+  display: grid;
+}
+.container > section {
+  min-height: 10em;
+}
+/* first section */
+.section1 {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+.section1 > div:first-child {
+  align-self: start;
+  justify-self: center;
+}
+.section1 > img:last-child {
+  height: 20em;
+  width: 20em;
+  background-color: red;
+  justify-self: end;
+}
+/* Section2 styles */
+.section2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.section2 > div {
+  height: 50vh;
+}
+.section2 > .image-wrapper {
+  background-color: whitesmoke;
+  margin-top: 5em;
+  justify-self: end;
+}
+.image-wrapper > img {
+  height: 50vh;
+  width: 30vw;
+}
+.img-text-wrapper > img {
+  height: 30vh;
+  width: 30vh;
+}
+.section2 > .img-text-wrapper {
+  height: 55em;
+  display: grid;
+  justify-items: start;
+}
+/* section3 styles */
+.section3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.section3 > img {
+  height: 30vh;
+  width: 25vw;
+}
+.section3 > img:first-child {
+  justify-self: start;
+}
+.section3 > img:last-child {
+  justify-self: end;
+}
+/* Section 4 and 5 styles */
+.shared-section-styles {
+  display: grid;
+  justify-items: center;
+  align-content: center;
+}
+.section5 > button {
+  width: 10vw;
+  height: 5vh;
+}

@@ -1,0 +1,38 @@
+.grid {
+    display: grid;
+    grid-template-areas:
+      "header header header"
+      "sidebar1 content sidebar2"
+      "sidebar1 content sidebar2"
+      "footer footer footer";
+  }
+  
+  .grid > .section {
+    border: #000 1px solid;
+    background-color: gray;
+    min-height: 20em;
+    padding: 1em;
+    margin:0.2em;
+    text-align: center;
+    font-weight: 600;
+    font-size: larger;
+}
+  
+  .sidebar1 {
+    grid-area: sidebar1;
+  }
+  .sidebar2 {
+    grid-area: sidebar2;
+  }
+  .header {
+    grid-area: header;
+  }
+  
+  .content {
+    grid-area: content;
+  }
+  
+  
+  .footer {
+    grid-area: footer;
+  }
