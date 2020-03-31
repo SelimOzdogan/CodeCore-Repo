@@ -4,12 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "selim": "echo \"Hi selim\"",
+    "start": "node app.js",
+    "db:create": "createdb --echo knex_demo",
+    "db:drop": "dropdb --if-exists --echo knex_demo",
+    "db:migrate": "knex migrate:latest",
+    "db:reset": "npm run db:drop && npm run db:create && npm run db:migrate"
   },
   "author": "Selim",
   "license": "ISC",
   "dependencies": {
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
     "knex": "^0.20.13",
+    "morgan": "^1.10.0",
     "pg": "^8.0.0"
   }
 }
