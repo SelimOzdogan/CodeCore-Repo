@@ -20,7 +20,9 @@ query2.then(data => {
 
 // Find all countries whose names begin with the same three letters as their code ignoring case
 const query3 = knex("countries")
-    .where("title", "ilike", knex.ref('code').concat('%') )
+    //.where("title", "ilike", knex.ref('code').concat('%') )
+    //knex.istartswith(<field>, <value>)
+    .whereRaw('"title" ilike "code"+%')
     .select("*");
 console.log(query3.toString());
 query3.then(data => {
