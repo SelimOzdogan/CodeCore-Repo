@@ -1,0 +1,15 @@
+<%- include("./partials/header.ejs")%>
+<% 
+var d = new Date();
+var currentyear = d.getFullYear();
+%>
+
+<% if( year > currentyear ) { %>
+<div>new</div>
+<% } else if(year==currentyear){%>
+<div>current</div>
+<% } else {%>
+<div>old</div>
+<% }
+%>
+<%- include("./partials/footer.ejs")%>
