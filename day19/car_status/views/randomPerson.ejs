@@ -1,0 +1,17 @@
+<%- include("./partials/header.ejs")%>
+<h1>Contact Us</h1>
+
+<% if (person) { %>
+<h3>person is  <%= person %> </h3>
+<% } %>
+
+<form action="/random_person">
+  <div>
+    <label for="names">Plaese put names?</label><br />
+    <input type="text" id="" name="names" />
+  </div>
+
+  <input type="submit" value="Send" />
+</form>
+
+<%- include("./partials/footer.ejs")%>
