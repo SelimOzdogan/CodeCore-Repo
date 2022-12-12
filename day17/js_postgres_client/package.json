@@ -16,7 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.0.2",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "knex": "^0.20.13",
     "morgan": "^1.10.0",
     "pg": "^8.0.0"
